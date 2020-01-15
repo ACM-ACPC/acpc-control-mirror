@@ -1,4 +1,4 @@
-# acpc-control-mirror
+# ACPC Control server local mirror
 # Introduction
 ACPC system installation based on installing a fresh copy of the OS followed by installing the required IDE, Debuggers, Judging s/w, and other administrative environment. Installing any package needs a configured mirror for downloading the package and its dependencies. The default mirror location is the Internet mirror. Installing simultaneous devices in the same time requires a stable and huge internet bandwidth specially at the required packages installation. Internet access also is not allowed in the contest hall at any time. A local mirror required to speed up the installation process. Creating a local mirror needs a storage, and a syncing process from Internet mirror to the local mirror.
 
