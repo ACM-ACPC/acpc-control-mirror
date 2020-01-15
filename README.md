@@ -19,5 +19,5 @@ Also, there is a script to update the local mirror to contains tha newly added p
 # How does it work?
 The mirror sync is a process of cloning the internet ubuntu mirror to a local storage, which will be typically the ACPC Control Server. By default, it syncs the mirror for the ACPC Control server architecture. If you want to download the mirror for different architecture(s) you have to mention that in the configuration file ansible.cfg
 
-# What is included and wnat is not included?
-The local mirror includes main, restricted, and universe sections of Ubuntu. And does not include security updates, and sources.
+# What is included and what is not included?
+The local mirror includes main, restricted, and universe sections of Ubuntu. Does not include security updates, and sources.
