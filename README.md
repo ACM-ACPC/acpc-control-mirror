@@ -17,6 +17,11 @@ Also, there is a script to update the local mirror to contains tha newly added p
   6. Downloading privileges.
   7. ACPC Control server ansible playbook from https://acpc-systems.github.io/acpc-control-ansible/
   
+# Install
+  * Login to your control server
+  * cd ansible
+  * git clone https://github.com/ACPC-Systems/acpc-control-mirror
+  
 # Customize your mirror.
   1. To specify the ubuntu dist, update  roles/mirror/vars/main.yml, and change the value for variable ubuntu_dist. It is bionic by default
 
