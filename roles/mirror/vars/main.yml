@@ -1,0 +1,3 @@
+---
+# vars file for mirror
+ubuntu_dist: "bionic"
