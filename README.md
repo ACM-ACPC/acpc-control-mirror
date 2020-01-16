@@ -16,6 +16,10 @@ Also, there is a script to update the local mirror to contains tha newly added p
   5. Internet connection
   6. Downloading privileges.
   7. ACPC Control server ansible playbook from https://acpc-systems.github.io/acpc-control-ansible/
+  
+# Customize your mirror.
+  1. To specify the ubuntu dist, update  roles/mirror/vars/main.yml, and change the value for variable ubuntu_dist. It is bionic by default
+
 
 # How does it work?
 The mirror sync is a process of cloning the internet ubuntu mirror to a local storage, which will be typically the ACPC Control Server. By default, it syncs the mirror for the ACPC Control server architecture. If you want to download the mirror for different architecture(s) you have to mention that in the configuration file ansible.cfg
