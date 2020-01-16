@@ -23,7 +23,7 @@ Also, there is a script to update the local mirror to contains tha newly added p
 
 # Usage:
  * cd ansible/acpc-control-mirror
- * ansible-playbook files/mirror.yml 
+ * sudo ansible-playbook files/mirror.yml 
  
 # Customize your playbook.
   The base directory for the playbook environment, is ansible/acpc-control-mirror.
