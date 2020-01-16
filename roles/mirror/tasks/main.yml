@@ -16,6 +16,12 @@
                   regexp: "set base_path"
                   line: "set base_path /MirrorPool"
 
+        - name: Update defaultarch  in /etc/apt/mirror.list
+          lineinfile:
+                  path: /etc/apt/mirror.list
+                  regexp: "set defaultarch"
+                  line: "set defaultarch i386"
+
         - name: Update the mirror tree locations in /etc/apt/mirror.list
           replace:
                   path: /etc/apt/mirror.list
